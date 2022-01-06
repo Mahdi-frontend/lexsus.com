@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,500;0,900;1,300&display=swap');
+/* set font */
+*:focus{
+    outline:none !important;
+    border:none !important;
+    box-shadow:none !important;
+}
+*{
+    text-decoration:none !important;
+}
+/* universall focus */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* end-font */
+
+nav a{
+    color:rgb(0, 0, 0) !important;
+}
+/* end-nav-color */
+
+nav{
+    position:sticky !important;
+    top:0;
+    background-color:white;
+    box-shadow:5px -3px 10px black;
+    z-index:999;
+}
+/* end fixing menu */
+.bg{
+    background-image:url(../images/slider.jpg);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:90vh;
+}
+/* end-background-slide-show */
+a.button{
+    text-decoration:none;
+    color:black;
+    background-color:white;
+    padding-right:20px;padding-left:20px;
+    padding-top:15px;padding-bottom:15px;
+    margin-bottom:2vh;
+}
+/* end-background-button */
+div.locat{
+    background-color:black;
+    padding:40px;
+}
+/* end-lcation */
+/* start icons */
+div.icons i{
+    font-size:44px;
+    color:#000000;
+    opacity:0.7;
+    margin-left:-40px;
+}
+
+/* start cars button */
+div.suggest a {
+    background-color:transparent;
+    border:1px solid black;
+    text-decoration:none;
+    color:black;
+    font-weight:bold;
+    padding-right:30px;padding-left:30px;
+    padding-top:10px;padding-bottom:10px;
+    transition:400ms linear;
+}
+div.suggest a:hover{
+    background-color:rgb(0, 0, 0);
+    color:white;
+}
+/* end cart button */
+/* start scale */
+.scale img {
+    overflow: hidden !important;
+    margin: 0 auto;
+    
+}
+   
+.scale img {
+    width: 100%;
+    transition: 0.5s all ease-in-out;
+
+}
+   
+.scale img:hover  {
+    transform: scale(1.1);
+
+}
+/* end scale */
+/* start car button */
+div.btno a.button-car{
+    text-decoration:none;
+    border:1px solid gray;
+    padding-right:40px;padding-left:40px;
+    padding-bottom:10px;padding-top:10px;
+    color:black;
+    transition:300ms linear;
+}
+div.btno a.button-car:hover{
+    background-color:rgb(0, 0, 0);
+}
+/* end car button */
+/* start colors bar */
+div.colors div{
+    width:30px;
+    height:30px;
+    border:1px solid gray;
+}
+div.color-1{
+    background-image:url(../images/atomic_silver.webp);
+}
+div.color-2{
+    background-image:url(../images/cadmium-orange.webp);
+}
+div.color-3{
+    background-image:url(../images/redline.webp);
+}
+div.color-4{
+    background-image:url(../images/caviar.webp);
+}
+div.color-5{
+    background-image:url(../images/cloudburst-gray.webp);
+}
+div.color-6{
+    background-image:url(../images/white.webp);
+}
+div.color-7{
+    background-image:url(../images/green.webp);
+}
+/* end color */
+/* main cars button */
+div.buttons a#btn{
+    color:white;
+    border:1px solid gray;
+    padding-top:15px;padding-bottom:15px;
+    padding-right:25px;padding-left:25px;
+    transition:300ms linear;
+}
+div.buttons a#btn:hover{
+    background-color:white;
+    color:black;
+}
+/* end- main cars  */
+
+/* end height */
+
+
+
+@media only screen and (max-width:576px){   /* XSM */
+    div.icons i {
+        font-size:34px;
+    }
+
+    /* end responsive icons */
+    div.btno a.button-car{
+        padding-right:30px;padding-left:30px;
+        padding-bottom:10px;padding-top:10px;
+    }
+}
+@media all and (min-width:567) and (max-width:767){
+
+}
+@media only screen and (min-width:768px) and (max-width:991px){  /* MD */
+
+   a.btn{
+       padding:5px;
+   }
+}
+@media all and (min-width:992) and (max-width:1199px){
+
+}
